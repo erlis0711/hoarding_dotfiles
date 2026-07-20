@@ -19,8 +19,8 @@ return {
     vim.keymap.set("n", "<C-l>", function() harpoon:list():select(4) end, { desc = "Harpoon select file 4" })
 
     -- Toggle previous & next buffers
-    vim.keymap.set("n", "<leader>hp", function() harpoon:list():prev() end, { desc = "Harpoon prev file" })
-    vim.keymap.set("n", "<leader>hn", function() harpoon:list():next() end, { desc = "Harpoon next file" })
+    vim.keymap.set("n", "<C-p>", function() harpoon:list():prev() end, { desc = "Harpoon prev file" })
+    vim.keymap.set("n", "<C-n>", function() harpoon:list():next() end, { desc = "Harpoon next file" })
 
     -- Optional: Basic Telescope integration if you prefer it over the standard menu
     local conf = require("telescope.config").values
