@@ -3,4 +3,4 @@ vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.shiftwidth = 4
 vim.opt.wrap = false
-
+-- vim.opt.autochdir = true
