@@ -54,7 +54,7 @@ return {
   -- =====================================================================
   {
     "windwp/nvim-ts-autotag",
-    event = { "BufReadPre", "BufNewFile" }, -- Load when opening file
+    -- event = { "BufReadPre", "BufNewFile" }, -- Load when opening file
     opts = {
       opts = {
         enable_close = true,          -- Auto-closes tags like <div> -> <div></div>
