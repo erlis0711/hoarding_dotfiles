@@ -17,19 +17,21 @@ return {
       })
 
       -- List the languages you want to automatically download and install
-      ts.install({ 
-        "lua", 
-        "vim", 
-        "vimdoc", 
-        "markdown", 
+      ts.install({
+        "lua",
+        "vim",
+        "vimdoc",
+        "markdown",
         "markdown_inline",
-        "python", 
-        "javascript", 
+        "python",
+        "javascript",
         "html",
         "css",
-        "haskell", 
+        "haskell",
         "java",
-	"c"
+	      "c",
+        "rust",
+        "go"
       })
 
       -- Autocmds to enable native features on FileType change
